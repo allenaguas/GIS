@@ -7,6 +7,8 @@ Location_1 = (37.7749, -122.4194)
 Location_2 = (40.661, -73.944)
 
 d = QgsDistanceArea()
+
+# Change Ellipsoid if needed, varies on geolocation
 d.setEllipsoid('WGS84')
 
 # Default is set to two locations
