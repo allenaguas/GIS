@@ -1,21 +1,23 @@
 from qgis.core import QgsDistanceArea
 from qgis.core import QgsUnitTypes
-#Creator:Allen - Distance values from lat long locations 
+# Creator:Allen - Distance values from lat long locations 
 
-#locations are subject to your lat and long inputs
+# Locations are subject to your lat and long inputs
 Location_1 = (37.7749, -122.4194)
 Location_2 = (40.661, -73.944)
 
 d = QgsDistanceArea()
 d.setEllipsoid('WGS84')
 
-
+# Default is set to two locations
 lat1, lon1 = Location_1
 lat2, lon2 = Location_2
+
 # Remember the order is X,Y
 point1 = QgsPointXY(lon1, lat1)
 point2 = QgsPointXY(lon2, lat2)
 
+# Distance output
 distance = d.measureLine([point1, point2])
 print('Distance in meters', distance)
 
