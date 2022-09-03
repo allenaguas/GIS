@@ -24,3 +24,9 @@ print('Distance in kilometers', distance_km)
 
 distance_mi = d.convertLengthMeasurement(distance, QgsUnitTypes.DistanceMiles)
 print('Distance in miles', distance_mi)
+
+distance_mi = d.convertLengthMeasurement(distance, QgsUnitTypes.DistanceMiles)
+print('Distance in nautical miles', distance_mi)
+
+distance_nm = d.convertLengthMeasurement(distance, QgsUnitTypes.DistanceNauticalMiles)
+print('Distance in  nautical miles', distance_nm)
