@@ -1,5 +1,10 @@
 ArcGIS: Layer to Print to Pdf
 
-Script was created to print map series while at the same time allowing the user to filter out certain field records out of the map. 
+Background:
+Our company provides utility maps to clients for requested regions. One dilema many mappers had encountered is the 
 
-Inital purpose of this tool was to filter our a certain record and then proceed to print the map series once done so.
+Inital purpose of this tool was to filter out a certain records that displayed information that was not in our territoy, then proceed to print the map series once done.
+
+How does the script work?
+1) User needs to select location
+
