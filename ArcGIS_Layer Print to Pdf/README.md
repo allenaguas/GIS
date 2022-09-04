@@ -7,7 +7,9 @@ The Solution:
 This script filters out records of areas that are not in our territoy, then proceeds to print the map series once done.
 
 How does the script work?
-1) User needs to select location manually
+1) User needs to select location manually before running script.
+  1.1 "select by attribute": Once interest of area is selected, the script will select all records that you do NOT want and do an inverse selection. Esentaially selecting all the other areas of interested a
+  
 #insert picture of the grid selection
 2)
 
