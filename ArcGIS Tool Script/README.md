@@ -1,4 +1,4 @@
-ArcGIS: Tool Script
+ArcGIS: Print Tool Script
 
 Background:
 Our company had an influx of new ArcGIS users (little to no GIS experience) which resulted a need to train all individuals on how to use the interface to produce maps of the area of interest they wanted. The amount of time to train these individals has resulted in a loss of productivity and deffered other important tasks.
