@@ -30,16 +30,13 @@ In "Parameters" we will need to create an output folder for where to save our PD
 
 ![image](https://user-images.githubusercontent.com/79226456/216123115-5f8355ce-345c-46c9-9a12-8533714337fa.png)
 
-
-
-
-
-
-
-
 How to run script tool:
 1) Click on area of interest ("Select by" tool ).
 
 ![image](https://user-images.githubusercontent.com/79226456/215903252-f41f0d24-6f23-4719-8f38-d786e70e2172.png)
+
+2) Click on script tool, and just select output path and run.
+
+![image](https://user-images.githubusercontent.com/79226456/216127410-375a38e6-a8d3-4141-827f-2773b0c86583.png)
 
 
