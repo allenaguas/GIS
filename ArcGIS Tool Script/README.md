@@ -22,6 +22,18 @@ How to set up script tool:
 
 4) Add Python script and alter parameters.
 
+Clear "Execution" and paste Python script within. You can also open and alter the script in a script editor if needed.  
+
+![image](https://user-images.githubusercontent.com/79226456/216122229-6469ab64-0d94-4d49-8a0d-7acf966e4017.png)
+
+In "Parameters" we will need to create an output folder for where to save our PDF map(s). It is important to note that the parameters in the script (Ex: Output_Folder = arcpy.GetParameterAsText(0)) need to match the naming convention in the "Parameters" Name as well. By default both the script and "Parameters" name has already set to "Output_Folder".
+
+![image](https://user-images.githubusercontent.com/79226456/216123115-5f8355ce-345c-46c9-9a12-8533714337fa.png)
+
+
+
+
+
 
 
 
