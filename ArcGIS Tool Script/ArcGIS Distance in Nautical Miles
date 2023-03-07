@@ -1,0 +1,17 @@
+import arcpy
+
+# Define the input features
+input_feature_1 = arcpy.GetParameterAsText(0)
+input_feature_2 = arcpy.GetParameterAsText(1)
+
+# Define the spatial reference to use for the calculation
+sr = arcpy.SpatialReference(4326)  # WGS 1984
+
+# Calculate the distance between the features in meters
+distance_meters = arcpy.PointDistance_management(input_feature_1, input_feature_2, "GEODESIC", "", "", "METERS", "sr")
+
+# Convert the distance to nautical miles
+distance_nm = distance_meters / 1852
+
+# Output the distance to the user
+arcpy.AddMessage("The distance between the features is {:.2f} nautical miles.".format(distance_nm))
