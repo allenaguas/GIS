@@ -21,3 +21,4 @@ Explanation: This script calculates default subnetworks within the electric util
 4) Script to Generate Reports for the Utility Network:
 Explanation: This script generates a report for the electric utility network, providing information such as network statistics, errors, warnings, etc. The GenerateUtilityNetworkReport_management function is used to generate the report.
 
+![image](https://github.com/allenaguas/GIS/assets/79226456/d9b29160-0dcd-404e-9ce5-a46f7073a0b9)
