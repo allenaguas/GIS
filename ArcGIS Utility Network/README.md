@@ -1,7 +1,7 @@
 ArcGIS: Utility Network Automation
 
 Background:
- Python examples/scripts that can aid in working with utility networks for electric distribution in ArcGIS Pro. You can modify and expand upon them to suit your specific requirements and workflows. 
+ Python examples/scripts that can aid in working with utility networks for electric distribution in ArcGIS Pro. You can modify and expand upon them to suit your specific requirements and workflows. These scripts demonstrate basic functionalities such as creating diagrams, performing traces, calculating subnetworks, and generating reports in an electric utility network.
  
 1) Script to Create a Utility Network Diagram:
 Explanation: This script creates a utility network diagram for the specified electric utility network. It uses the CreateUtilityNetworkDiagram_management function provided by ArcPy to generate the diagram. The diagram will visualize the network topology and connectivity.
