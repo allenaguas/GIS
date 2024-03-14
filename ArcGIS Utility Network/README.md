@@ -6,19 +6,18 @@ Background:
 1) Script to Create a Utility Network Diagram:
 Explanation: This script creates a utility network diagram for the specified electric utility network. It uses the CreateUtilityNetworkDiagram_management function provided by ArcPy to generate the diagram. The diagram will visualize the network topology and connectivity.
 
-![alt text](image-1.png)
+
 
 2) Script to Perform a Trace on the Utility Network:
 Explanation: This script performs a trace operation on the electric utility network starting from specified points (e.g., poles). It traces downstream from the starting points and returns the result. The TraceGeometricNetwork_management function is used for tracing.
 
-![alt text](image-2.png)
+
 
 3) Script to Calculate Subnetworks in the Utility Network:
 Explanation: This script calculates default subnetworks within the electric utility network. Subnetworks are groups of connected features within the network. The CalculateDefaultSubnetworks_management function is used to perform this calculation.
 
-![alt text](image-3.png)
+
 
 4) Script to Generate Reports for the Utility Network:
 Explanation: This script generates a report for the electric utility network, providing information such as network statistics, errors, warnings, etc. The GenerateUtilityNetworkReport_management function is used to generate the report.
 
-![alt text](image-4.png)
