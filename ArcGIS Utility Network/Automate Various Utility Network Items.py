@@ -1,5 +1,4 @@
 #Script to Create a Utility Network Diagram
-
 import arcpy
 
 def create_network_diagram(utility_network, output_diagram):
@@ -14,7 +13,7 @@ import arcpy
 
 def perform_trace(utility_network, starting_points, trace_type):
     trace_result = arcpy.TraceGeometricNetwork_management(utility_network, trace_type, starting_points)
-    return trace_result
+    return trace_result+
 
 utility_network = "Electric_Network"
 starting_points = "Poles"  # Starting points for the trace
