@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MapToolIdentify": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\aguasaa\\AppData\\Local\\Programs\\ArcGIS\\Pro\\bin\\ArcGISPro.exe"
+    }
+  }
+}
